@@ -1,15 +1,27 @@
 import React, { PropsWithChildren, StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 
+import { ToastrProvider } from '@glom/toastr';
 import { ThemeProvider } from '@mui/material';
 import App from './app/app';
-import { useTheme } from './utils/theme';
 import './styles.css';
+import { useTheme } from './utils/theme';
 
 const AppContainer: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <StrictMode>
-      <ThemeProvider theme={useTheme()}>{children}</ThemeProvider>
+      <ThemeProvider theme={useTheme()}>
+        <ToastrProvider
+          configs={{
+            disableDismissAll: false,
+            disableDecendantStyle: false,
+            timeout: 2000,
+            restartTimeoutAferHover: false,
+          }}
+        >
+          {children}
+        </ToastrProvider>
+      </ThemeProvider>
     </StrictMode>
   );
 };
