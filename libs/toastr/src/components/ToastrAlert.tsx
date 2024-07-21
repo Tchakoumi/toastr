@@ -4,7 +4,7 @@ import info from '@iconify/icons-fluent/info-24-filled';
 import warning from '@iconify/icons-fluent/warning-24-filled';
 import { Icon, IconifyIcon } from '@iconify/react';
 import { Box, Button, Typography } from '@mui/material';
-import { IToast, ToastType } from '../../types';
+import { IToast, ToastType } from '../types';
 
 export default function ToastrAlert({
   message,

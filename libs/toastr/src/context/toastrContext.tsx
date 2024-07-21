@@ -7,7 +7,7 @@ import React, {
   useEffect,
   useState,
 } from 'react';
-import NotificationList from '../lib/components/NotificationList';
+import NotificationList from '../components/NotificationList';
 import { isCustomContent } from './toastUtils';
 import {
   CustomNotification,
