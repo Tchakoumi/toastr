@@ -17,7 +17,7 @@ import {
   Notification,
   ToastNotification,
   ToastrContextProps,
-} from './types';
+} from '../../types';
 
 const ToastrContext = createContext<ToastrContextProps | undefined>(undefined);
 

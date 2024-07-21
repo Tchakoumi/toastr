@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import ToastrAlert from './ToastrAlert';
 import { isCustomContent } from './toastUtils';
 import { useToastr } from './toastrContext';
-import { CustomNotification, IToast, Notification } from './types';
+import { CustomNotification, IToast, Notification } from '../../types';
 
 const fadeInUp = keyframes`
   0% {
