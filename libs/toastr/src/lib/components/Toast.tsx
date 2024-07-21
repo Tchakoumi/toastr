@@ -2,8 +2,8 @@ import { Box } from '@mui/material';
 import { keyframes } from '@mui/system';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import ToastrAlert from './ToastrAlert';
-import { isCustomContent } from './toastUtils';
-import { useToastr } from './toastrContext';
+import { isCustomContent } from '../../context/toastUtils';
+import { useToastr } from '../../context/toastrContext';
 import { CustomNotification, IToast, Notification } from '../../types';
 
 const fadeInUp = keyframes`

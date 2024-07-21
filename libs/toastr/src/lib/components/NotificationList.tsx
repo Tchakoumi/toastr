@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 import { Box, IconButton, Tooltip } from '@mui/material';
 import React, { useState } from 'react';
 import Toast, { ANIMATION_TIMEOUT } from './Toast';
-import { useToastr } from './toastrContext';
+import { useToastr } from '../../context/toastrContext';
 
 const NotificationList: React.FC = () => {
   const { notifications, globalConfigs, clearToast } = useToastr();

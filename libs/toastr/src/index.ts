@@ -1,1 +1,1 @@
-export * from './lib/components/toastrContext';
+export * from './context/toastrContext';

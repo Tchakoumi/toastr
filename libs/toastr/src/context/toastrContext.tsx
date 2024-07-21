@@ -7,7 +7,7 @@ import React, {
   useEffect,
   useState,
 } from 'react';
-import NotificationList from './NotificationList';
+import NotificationList from '../lib/components/NotificationList';
 import { isCustomContent } from './toastUtils';
 import {
   CustomNotification,
@@ -17,7 +17,7 @@ import {
   Notification,
   ToastNotification,
   ToastrContextProps,
-} from '../../types';
+} from '../types';
 
 const ToastrContext = createContext<ToastrContextProps | undefined>(undefined);
 
