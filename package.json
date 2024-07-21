@@ -1,6 +1,6 @@
 {
-  "name": "@toastr/source",
-  "version": "0.0.0",
+  "name": "@glomllc/toastr",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
@@ -64,5 +64,22 @@
     "vite": "^5.0.0",
     "vite-plugin-dts": "~2.3.0",
     "vitest": "~0.34.6"
-  }
+  },
+  "keywords": [
+    "react",
+    "toastr",
+    "notification",
+    "alert",
+    "push",
+    "information",
+    "react-component",
+    "react-toastr",
+    "toastr",
+    "glomllc/toastr"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tchakoumi/toastr.git"
+  },
+  "author": "Tchakoumi Lorrain Kouatchoua"
 }
