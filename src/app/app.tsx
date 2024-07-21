@@ -1,4 +1,4 @@
-import { useToastr } from '@glom/toastr';
+import { useToastr } from '@glomllc/toastr';
 import { Button } from '@mui/material';
 
 export function App() {

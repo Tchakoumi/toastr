@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@glom/toastr": ["libs/toastr/src/index.ts"]
+      "@glomllc/toastr": ["libs/toastr/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

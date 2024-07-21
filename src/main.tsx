@@ -1,7 +1,7 @@
 import React, { PropsWithChildren, StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 
-import { ToastrProvider } from '@glom/toastr';
+import { ToastrProvider } from '@glomllc/toastr';
 import { ThemeProvider } from '@mui/material';
 import App from './app/app';
 import './styles.css';
