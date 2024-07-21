@@ -8,5 +8,33 @@
       "import": "./index.mjs",
       "require": "./index.js"
     }
-  }
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@iconify/icons-fluent": "^1.2.38",
+    "@iconify/react": "^5.0.1",
+    "@mui/material": "^5.16.4",
+    "@swc/helpers": "~0.5.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tslib": "^2.3.0"
+  },
+  "keywords": [
+    "react",
+    "toastr",
+    "notification",
+    "alert",
+    "push",
+    "information",
+    "react-component",
+    "react-toastr",
+    "toastr",
+    "glomllc/toastr"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tchakoumi/toastr.git"
+  },
+  "author": "Tchakoumi Lorrain Kouatchoua"
 }
