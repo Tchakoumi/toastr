@@ -177,6 +177,7 @@ const Toast = ({
               },
         width: 'fit-content',
         maxWidth: { mobile: '100%', tablet: '70%' },
+        justifySelf: 'end',
         animation: `${isVisible ? fadeInUp : fadeOutUp} ${
           ANIMATION_TIMEOUT / 1000
         }s ease-out forwards`,
